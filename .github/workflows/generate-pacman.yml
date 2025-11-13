@@ -1,0 +1,35 @@
+name: Generate Pacman Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"     # Runs daily at midnight
+  workflow_dispatch:         # Allows manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate Pacman SVG
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Generate Pacman Graph
+        run: |
+          python generate_pacman.py
+
+      - name: Commit Files
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add .
+          git commit -m "Updated Pacman Contribution Graph" || echo "No changes"
+          git push
