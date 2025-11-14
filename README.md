@@ -1,7 +1,7 @@
-<h1 align="center">Hi, I'm Beebek 👋</h1>
+<h1 align="center">Hi, I'm Beebek Sharma👋</h1>
 
 <p align="center">
-  Passionate Developer • Python & Django Enthusiast • Machine Learning Learner
+  Python & Django Developer • Machine Learning Learner
 </p>
 
 ###
@@ -31,20 +31,16 @@
 ###
 
 <div align="center">
-  <a href="https://linkedin.com/in/YOUR_LINK">
+  <a href="https://www.linkedin.com/in/beebek-sharma-954686331/">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="LinkedIn"/>
   </a>
-  <a href="https://twitter.com/YOUR_LINK">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&style=for-the-badge" height="25" alt="Twitter"/>
-  </a>
-  <a href="https://dev.to/YOUR_LINK">
-    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&style=for-the-badge" height="25" alt="dev.to"/>
-  </a>
-</div>
+  <a href="https://medium.com/@bibehsharma777">
+  <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=000000&logoColor=white&style=for-the-badge" height="25" />
+</a>
 
 <div align="middle">
   <!-- Your animated GIF on the right -->
-  <img src="https://raw.githubusercontent.com/Beebek-Sharma/Beebek-Sharma/main/mygif.gif" height="220">
+  <img src="https://raw.githubusercontent.com/Beebek-Sharma/Beebek-Sharma/main/assets/mygif.gif" height="220">
 </div>
 
 ###
@@ -70,13 +66,13 @@
 ---
 
 ## About
-- 🔭 I’m currently working on Python, Django, Flask projects and learning more about ML & NLP.  
+- 🔭 I’m currently working on Python, Django, Flask projects and learning more about AI & ML.  
 - 🌱 I love building practical tools and small automation projects.  
 - 📨 Reach me: [Beebek-Sharma](https://github.com/Beebek-Sharma)
 
 ---
 
-> This pacman/snake graph is auto-generated daily by a GitHub Action in this repository.
+> This snake graph is auto-generated daily by a GitHub Action in this repository.
 
 
 
