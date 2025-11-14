@@ -39,9 +39,9 @@
 </a>
 
 <div align="middle">
-  <!-- Your animated GIF on the right -->
-  <img src="https://raw.githubusercontent.com/Beebek-Sharma/Beebek-Sharma/main/assets/mygif.gif" height="220">
+  <img src="https://raw.githubusercontent.com/Beebek-Sharma/Beebek-Sharma/main/assets/mygif.gif" height="220" />
 </div>
+
 
 ###
 
@@ -73,6 +73,7 @@
 ---
 
 > This snake graph is auto-generated daily by a GitHub Action in this repository.
+
 
 
 
