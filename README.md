@@ -1,10 +1,5 @@
 <h1 align="center">Hi, I'm Beebek 👋</h1>
 
-<div align="right">
-  <!-- Your animated GIF on the right -->
-  <img src="https://raw.githubusercontent.com/Beebek-Sharma/Beebek-Sharma/main/mygif.gif" height="220">
-</div>
-
 <p align="center">
   Passionate Developer • Python & Django Enthusiast • Machine Learning Learner
 </p>
@@ -47,6 +42,11 @@
   </a>
 </div>
 
+<div align="middle">
+  <!-- Your animated GIF on the right -->
+  <img src="https://raw.githubusercontent.com/Beebek-Sharma/Beebek-Sharma/main/mygif.gif" height="220">
+</div>
+
 ###
 
 <br clear="both">
@@ -86,6 +86,7 @@
 ---
 
 > This pacman/snake graph is auto-generated daily by a GitHub Action in this repository.
+
 
 
 
