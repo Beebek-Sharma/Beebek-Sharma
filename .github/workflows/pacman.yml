@@ -1,0 +1,35 @@
+name: Generate Pacman Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Pacman Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.11
+        with:
+          user_name: Beebek-Sharma
+
+      - name: Move output
+        run: |
+          mkdir -p pacman
+          mv out/pacman.svg pacman/pacman.svg || true
+
+      - name: Push Pacman Graph
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: pacman
+          build_dir: pacman
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
